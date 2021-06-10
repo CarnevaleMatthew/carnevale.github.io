@@ -3,7 +3,7 @@
 body {
     text-align: center;
     line-height: 1.5;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 p {
@@ -17,6 +17,10 @@ h1 {
 
 h2 {
     font-size: 4rem;
+}
+
+h3 {
+    font-size: 1.5rem;
 }
 
 h1, h2, h3 {
@@ -132,12 +136,26 @@ hr {
     
 }
 
+a {
+    color: #11999E;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    color: white;
+}
 
 
 @media only screen and (max-width: 600px) {
     .mountain {
         width: 100%;
-        max-width: 700px
+        max-width: 600px
+    }
+
+    .skill-row {
+        width: 90%
     }
 
 }
