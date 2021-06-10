@@ -1,0 +1,146 @@
+/* My CSS code down below */
+
+body {
+    text-align: center;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 5rem;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h1, h2, h3 {
+    color: #66bfbf
+}
+
+.title p {
+    font-weight: normal;
+    line-height: 2;
+    font-size: 2.5rem;
+    color: #66bfbf
+}
+
+.header {
+    position: relative;
+    padding-top: 100px;
+    background-color: #e4f9f5;
+    height: 800px;
+    
+}
+
+.top-cloud,
+.bottom-cloud {
+    position: absolute;
+}
+
+.top-cloud {
+    top: 20px;
+    right: 30px;
+    
+    right: 30%;
+    
+}
+
+.me {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 50px;
+    object-fit: contain;
+}
+
+.skill {
+    width: 300px;
+    height: auto;
+  
+}
+
+.pizza {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.skill-row .skill {
+    width: 33%;
+    float: left;
+    padding: 3px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.skill-row .pizza {
+    width: 50%;
+    float: right;
+    padding: 3px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.contact-me {
+    margin-bottom: 100px;
+}
+
+.btn {
+    font-size: 2rem;
+    border: transparent 3px black;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #66bfbf;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: teal;
+}
+
+.footer {
+    height: 200px;
+    background-color: #66bfbf;
+    position: relative;
+}
+
+.footer-link {
+    position: relative;
+    top: 50%;
+    font-size: 1.5rem;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.at {
+    position: absolute;
+    bottom: 7%;
+    left: 42.5%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .mountain {
+        width: 100%;
+        max-width: 700px
+    }
+
+}
+
