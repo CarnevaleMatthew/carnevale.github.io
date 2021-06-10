@@ -23,6 +23,14 @@ h1, h2, h3 {
     color: #66bfbf
 }
 
+hr {
+    border: dotted #e4f9f5 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+
+}
+
 .title p {
     font-weight: normal;
     line-height: 2;
